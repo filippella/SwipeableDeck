@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:background="#222C2C"
+    tools:context="org.dalol.swipeabledeck.MainActivity">
+
+    <TextView
+        android:id="@+id/handle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC5443"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Filippo Swipe Deck Cards"
+        android:textColor="@android:color/white" />
+
+
+    <org.dalol.swipeabledeck.SwipeableDeckView
+        android:id="@+id/swipeableDeck"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </org.dalol.swipeabledeck.SwipeableDeckView>
+</LinearLayout>
